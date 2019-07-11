@@ -1,0 +1,72 @@
+body {
+  background: white url(http://www.htmldog.com/images/bg.gif) no-repeat bottom
+    right;
+}
+p:first-child {
+  font-family: "Courier New";
+  font-style: italic;
+  margin: 1px 5px 10px 20px;
+}
+#top {
+  background-color: #ccc;
+  padding: 20px;
+  font-size: 30px;
+}
+#top h1 {
+  color: #ff0;
+}
+#top p {
+  color: red;
+  font-weight: bold;
+}
+#middle {
+  background-color: gainsboro;
+  padding: 15px;
+}
+#middle p {
+  color: red;
+  font-weight: bold;
+}
+#link a:visited {
+  color: purple;
+}
+#link a:link {
+  color: green;
+}
+#link a:hover {
+  text-decoration: none;
+  color: blue;
+  background-color: yellow;
+}
+#last p {
+  font: 14px/1.5 "Times New Roman", times, serif;
+  padding: 30px 10px;
+  border: 1px black solid;
+  border-width: 1px 5px 5px 1px;
+  border-color: red green blue yellow;
+  margin: 10px 50px;
+}
+ol {
+  font: 20px Arial;
+  display: inline;
+}
+li {
+  display: inline;
+}
+li:before {
+  content: "POW! ";
+  color: blue;
+  background-color: plum;
+}
+#hidden p {
+  padding: 15px;
+}
+#hidden p:first-letter {
+  font-size: 24px;
+  float: left;
+  padding: 15px;
+}
+
+#content {
+  margin-left: 200px;
+}
